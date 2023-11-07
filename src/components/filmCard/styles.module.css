@@ -1,0 +1,47 @@
+.filmCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.filmInfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.filmTitle {
+  margin: 0;
+  font-size: 14px;
+}
+
+.filmReleaseDate,
+.filmEpisodeId {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.filmThumbnail {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+}
+
+.showPeopleBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.showPeopleBtn:hover {
+  background-color: #0056b3;
+}

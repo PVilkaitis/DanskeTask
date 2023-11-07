@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: left 0.3s;
+  border: 1px solid black;
+  background: #f5f5f5;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar.closed {
+  left: -200px;
+}
+
+.toggleButton {
+  position: absolute;
+  left: 210px;
+  padding: 10px;
+  transition: left 0.3s;
+}
+
+.sidebar.closed + .toggleButton {
+  left: 10px;
+}
+
+.content {
+  transition: margin-left 0.3s;
+  padding: 10px;
+}
+
+.contentShift {
+  margin-left: 200px;
+}
+
+.activeNavLink {
+  color: blue;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin: 20px auto;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.filmsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.actorsContainer {
+  display: flex;
+  flex-direction: column;
+}
